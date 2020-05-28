@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 1、选择；2、设置css属性{} */
+      /* 标签nav */
+      nav {
+        width: 300px;
+        height: 400px;
+      }
+      a {
+        /* 超链接的下划线设置为无 */
+        text-decoration: none;
+
+        /* 增大超链接范围 */
+        display: block;
+        height: 35px;
+        padding: 0 38px;
+
+        color: white;
+      }
+      li {
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 35px;
+        /* 目的是将li中文字垂直居中显示 */
+        line-height: 35px;
+        /* 去除项目符号 */
+        list-style: none;
+      }
+
+      li:nth-of-type(2n) {
+        background-color: rgba(0, 0, 0, 0.9);
+      }
+      li:hover {
+        background-color: #0099e5;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#"><span>JaveEE培训</span></a>
+        </li>
+        <li>
+          <a href="#"><span>Android培训</span></a>
+        </li>
+        <li>
+          <a href="#"><span>PHP培训</span></a>
+        </li>
+        <li>
+          <a href="#"><span>UI设计培训</span></a>
+        </li>
+        <li>
+          <a href="#"><span>iOS培训</span></a>
+        </li>
+        <li>
+          <a href="#"><span>前端与移动开发培训</span></a>
+        </li>
+        <li>
+          <a href="#"><span>C/C++培训</span></a>
+        </li>
+        <li>
+          <a href="#"><span>网络营销培训</span></a>
+        </li>
+        <li>
+          <a href="#"><span>游戏开发培训</span></a>
+        </li>
+        <li>
+          <a href="#"><span>云计算之大数据培训</span></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
